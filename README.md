@@ -31,3 +31,7 @@ probabilističke matrične faktorizacije koja nije efikasna u slučaju takvih po
 #### 3. Trening modela
 Istrenirana su dva različita modela ...
 #### 4. Analiza rezultata i upoređivanje implementiranih metoda
+
+
+## Pokretanje
+Dodati
