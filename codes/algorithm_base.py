@@ -10,7 +10,7 @@ from codes.data import Data
 class AlgorithmBase(object):
     """
     Apstraktna klasa za modele Kernelizovanih Probabilističkih Matričnih Faktorizacija.
-    U njoj su implementirane funkcije fit, predict i izvršena je inicijalizacija matrica k_u, k_v
+    U njoj su implementirane funkcije fit, predict i izvršena je inicijalizacija matrica k_u, k_v.
     Ima dvije nasijeđene klase, KPMF i CKPMF.
 
     Parameters:
