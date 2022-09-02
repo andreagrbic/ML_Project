@@ -16,7 +16,7 @@ class CKPMF(AlgorithmBase):
         n_factors (int): broj latentnih faktora
 
     """
-    def __init__(self, learning_rate=0.005, regularization=0.02, n_epochs=20, n_factors=100):
+    def __init__(self, learning_rate=0.005, regularization=0.02, n_epochs=20, n_factors=10):
         super().__init__(learning_rate, regularization, n_epochs, n_factors, kernel='ckpmf')
 
     def initialize(self, data: Data) -> Tuple[np.ndarray, np.ndarray]:
